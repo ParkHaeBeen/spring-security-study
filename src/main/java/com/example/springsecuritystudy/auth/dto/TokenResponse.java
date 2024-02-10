@@ -1,2 +1,18 @@
-package com.example.springsecuritystudy.auth.dto;public class TokenResponse {
+package com.example.springsecuritystudy.auth.dto;
+
+import java.time.LocalDateTime;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+@Getter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class TokenResponse {
+  private String grantType;
+  private String accessToken;
+  private String refreshToken;
+  private LocalDateTime accessTokenExpiredDate;
 }

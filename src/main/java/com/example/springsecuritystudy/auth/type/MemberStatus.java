@@ -1,2 +1,5 @@
-package com.example.springsecuritystudy.auth.type;public class MemberStatus {
+package com.example.springsecuritystudy.auth.type;
+
+public enum MemberStatus {
+ ACTIVE, DRAWN
 }

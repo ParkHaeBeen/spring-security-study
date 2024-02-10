@@ -1,2 +1,5 @@
-package com.example.springsecuritystudy.auth.type;public enum Role {
+package com.example.springsecuritystudy.auth.type;
+
+public enum Role {
+  USER, ADMIN
 }
